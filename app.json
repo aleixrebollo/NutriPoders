@@ -4,8 +4,13 @@
     "slug": "nutri-poders",
     "version": "1.0.0",
     "orientation": "portrait",
+    "icon": "./assets/app-icon.png", 
     "android": {
-      "package": "com.mireia.nutripoders"
+      "package": "com.aleix.nutripoders",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/app-icon.png",
+        "backgroundColor": "#ffffff"
+      }
     },
     "extra": {
       "eas": {
